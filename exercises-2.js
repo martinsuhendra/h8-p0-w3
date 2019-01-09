@@ -1,7 +1,7 @@
 function balikString(kata){
     var result = ''
-    for(i=kata.length;i > 0;i--){
-        result += kata[i-1]
+    for(var i = kata.length - 1;i > 0;i--){
+        result += kata[i]
     }
     return result
 }
