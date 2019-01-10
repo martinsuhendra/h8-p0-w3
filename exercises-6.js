@@ -4,7 +4,7 @@ function angkaPalindrome(num) {
         var numString = num.toString(); //variabel harus bertipe data 'String' agar bisa di cek
         var reverseNum = '' //membuat variabel untuk menampung angka yang akan di cek
 
-        for(i = numString.length - 1;i >= 0; i--){
+        for(var i = numString.length - 1;i >= 0; i--){
             reverseNum += numString[i]
             if(reverseNum === numString[0]){
                 return num

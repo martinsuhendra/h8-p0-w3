@@ -5,7 +5,6 @@ var checkDate = input[3].split('/')
 var x = [checkDate[0],checkDate[1],checkDate[2]]
 var y = parseInt(checkDate[1]);
 
-
 function dataHandling2(input){
     input.splice(0,3,"0001","Roman Alamsyah Elsharawy","Provinsi Bandar Lampung");
     input.splice(4,1,"Pria","SMA International Metro")
