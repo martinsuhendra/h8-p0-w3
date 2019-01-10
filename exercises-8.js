@@ -4,7 +4,7 @@ function pasanganTerbesar(num) {
     var splitNum = numString.split('')
     var tampung = '0'
 
-    for(i=0;i<=splitNum.length - 1;i++){
+    for(var i=0;i<=splitNum.length - 1;i++){
         var pembanding = splitNum.slice(i,i+2)
         if(pembanding > tampung){
             tampung = pembanding
