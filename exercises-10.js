@@ -2,7 +2,7 @@ function perkalianUnik(arr) {
     
     var result = []
 
-    for(i=0;i<arr.length;i++){
+    for(var i = 0;i < arr.length;i++){
         var tampung = 1;
         for(j = 0; j < arr.length;j++){
             if(i !== j){
